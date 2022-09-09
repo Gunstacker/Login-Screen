@@ -1,0 +1,148 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   background: #fafafa;
+   width: 100vh;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container-images{
+   position: relative;
+   
+}
+.celular{
+   width: 450px;
+   left: 10%;
+}
+.tela-celular{
+   position: absolute;
+   height: 530px;
+   width: 250px;
+   left: 149px;
+   top: 22px;
+   transition: 2s ease-in-out;
+}
+.tela-celular1{
+   width: 245px;
+   position: absolute;
+   transition: 2s ease-in-out;
+   left: 150px;
+   top: 25px;
+}
+
+
+/* PARTE QUE ENGLOBA A AREA DE LOGIN */
+form{
+   text-align: center;
+   width: 400px;
+   height:400px;
+   display: flex;
+   flex-direction: column;
+   border: 1px solid #dbdbdb;
+   border-radius: 4%;
+   padding: 20px ;
+   margin-top: 100px;
+   
+   box-shadow: -15px 5px 10px rgba(0, 0, 0, 0.36);
+}
+   .input-login
+      {
+         width: 350px;
+         margin-top: -200px;   
+      }
+        .insta-login-screen
+        {
+            text-align: center;
+            width: 300px;
+            margin-left: 20px;
+        }
+/* FIM PARTE QUE ENGLOBA A AREA DE LOGIN */
+
+
+
+/* AREA DE LOGIN E SENHA INPUTS */
+input{
+   outline: none;
+   border: 1px solid #dbdbdb;
+   border-radius: 3px;
+   width: 280px;
+   height: 30px;
+   padding-left: 5px;
+   
+}    
+   .senha-container  
+      {
+         margin-top: -13px;
+      }
+/* FIM AREA DE LOGIN E SENHA INPUTS */
+
+
+/* CUSTOM BUTTON */
+button{
+   text-align: center;
+   color: #fafafa;
+   margin-left: 39px;
+   margin-top: 10px;
+   height: 30px;
+   width: 280px;
+   border-radius: px;
+   background-color: #0095f6;
+   border: none;
+   font-family: Arial, Helvetica, sans-serif;
+   cursor: pointer;
+}
+.botao:hover{
+      background-color: rgb(0, 15, 226);
+      transition: 0.5;
+      opacity: 0.7;
+   }
+/* FIM CUSTOM BUTTON */
+
+
+
+/* IMAGENS DE PLAY STORE */
+.gplay{
+   width: 130px;
+   margin-bottom: -250px;
+   margin-left: -290px;
+}
+.app-store{
+   width: 130px;
+   margin-bottom: -250px;
+   margin-left: -150px;
+}
+
+/* FIM IMAGENS DE PLAY STORE */
+
+.login-face{
+   color: #385185;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   cursor: pointer;
+}  
+.esqueceu-senha{
+   color: #385185;
+   font-weight: bold;
+}
+
+.icon{
+   justify-content: center;
+   margin-left: -170px;
+   margin-top: 250px;
+}
+
+.insta-login-screen{
+   margin-bottom: 2px;
+}
+
+
+
+
+
